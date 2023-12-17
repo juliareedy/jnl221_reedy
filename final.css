@@ -12,23 +12,21 @@
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	color: rosybrown;
-	background-color: #BADEFC;
+	color: maroon;
+	background-color: lightpink;
 }
 p {
-	font-family: 'Times New Roman' , serif;
+	font-family: 'Nunito' , sans-serif;
 	font-size: 20px;
 }
 h4 {
 	font-style: italic;
 	font-size: 40px;
 	font-family: 'Georgia', serif;
-	background-color: #BADEFC;
+	background-color: #lightpink;
 }
 h3 {
 	font-size: 30px;
-	text-decoration: underline;
-	/* added underlining under subhead */
 }
 
 img {
@@ -38,6 +36,14 @@ img {
 }
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
+
+{
+	img {
+		float: none;
+	}
+}
+
+
 {
  .list {
  	float: none;
@@ -50,4 +56,6 @@ img {
  	min-width: 90%;
  	margin-right: 10px;
  }
+.footer p {
+	background-color:#BADEFC ;
 }
